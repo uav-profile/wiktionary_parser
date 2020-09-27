@@ -1,19 +1,19 @@
 # parsers_py
 Different parsers
 
-### wiktionary.py:
+# wiktionary.py:
   Requirements:
   - requests
   - BeautifulSoup (bs4)
   - lxml
   
-  # Running: 
+  ### Running: 
     python wiktionary.py "Испанский_язык"
   
-  # Result:
+  ### Result:
     csv-file "Испанский_язык.csv" with pairs "word;translate"...
     
-  # Also:
+  ### Also:
       
       Import:
             1. from wiktionary import make_dictionary
