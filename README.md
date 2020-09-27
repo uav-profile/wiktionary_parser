@@ -2,6 +2,7 @@
 Different parsers
 
 # wiktionary.py:
+![](https://github.com/weider938/parsers_py/blob/master/src/vikislovar.jpg)
   Requirements:
   - requests
   - BeautifulSoup (bs4)
