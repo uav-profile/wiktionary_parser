@@ -11,7 +11,7 @@ Different parsers
     python wiktionary.py "Испанский_язык"
   
   ### Result:
-    csv-file "Испанский_язык.csv" with pairs "word;translate"...
+    csv-file "Испанский_язык.csv" with pairs "word;translate"
     
   ### Also:
       
