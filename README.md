@@ -1,8 +1,7 @@
-# parsers_py
-Different parsers
-
 # wiktionary.py:
 ![](https://github.com/weider938/parsers_py/blob/master/src/vikislovar.jpg)
+
+![](https://github.com/weider938/parsers_py/blob/master/src/example.PNG)
 
   Requirements:
   - requests
@@ -11,9 +10,6 @@ Different parsers
   
   ### Running: 
     python wiktionary.py
-  
-  ### Result:
-    
     
   ### Also:
       

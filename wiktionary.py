@@ -1,7 +1,6 @@
 import sys
 import os
 import requests
-from pprint import pprint
 from bs4 import BeautifulSoup  # + lxml
 
 
@@ -965,9 +964,10 @@ def main():
         print("\t\t3. - Урду")
         print("\t\t4. - Пушту")
         print("\t\t5. - Дари")
-        print("\t\t6. - Все сразу!")
-        print("\t\t7. - Получить список языков русского Wiktionary")
-        print("\t\t8. - Завершить работу")
+        print("\t\t6. - Получить словари из русской базы")
+        print("\t\t7. - Получить словари из английской базы")
+        print("\t\t8. - Получить список языков русского Wiktionary")
+        print("\t\t0. - Завершить работу")
         choice = int(input("\n\t\t\t"))
         if choice == 1:
             make_dictionary(lang=langs_ru[1], csv=True, print_to_console=print_to_con)
@@ -998,14 +998,14 @@ def main():
             make_dictionary(lang=langs_ru[3], csv=True, print_to_console=print_to_con)
             make_dictionary(lang=langs_ru[4], csv=True, print_to_console=print_to_con)
             make_dictionary(lang=langs_ru[5], csv=True, print_to_console=print_to_con)
-            if eng_choice:
-                Arabic_parsing(save_=True, print_=print_to_con)
-                Persian_parsing(save_=True, print_=print_to_con)
-                Urdu_parsing(save_=True, print_=print_to_con)
-                Pashto_parsing(save_=True, print_=print_to_con)
         elif choice == 7:
-            get_languages(mode="write")
+            Arabic_parsing(save_=True, print_=print_to_con)
+            Persian_parsing(save_=True, print_=print_to_con)
+            Urdu_parsing(save_=True, print_=print_to_con)
+            Pashto_parsing(save_=True, print_=print_to_con)
         elif choice == 8:
+            get_languages(mode="write")
+        elif choice == 0:
             sys.exit(0)
         else:
             print("\tВы ввели некорректное значение.")
