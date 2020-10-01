@@ -10,9 +10,6 @@
   
   ### Running: 
     python wiktionary.py
-  
-  ### Result:
-    
     
   ### Also:
       
